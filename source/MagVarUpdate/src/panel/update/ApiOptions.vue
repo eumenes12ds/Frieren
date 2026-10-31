@@ -77,10 +77,8 @@ import Checkbox from '@/panel/component/Checkbox.vue';
 import Field from '@/panel/component/Field.vue';
 import HelpIcon from '@/panel/component/HelpIcon.vue';
 import Select from '@/panel/component/Select.vue';
-import prompt_break_help_en from '@/panel/update/prompt_break.en.md';
-import prompt_break_help_zh_cn from '@/panel/update/prompt_break.zh-CN.md';
-import prompt_toolcall_help_en from '@/panel/update/prompt_toolcall.en.md';
-import prompt_toolcall_help_zh_cn from '@/panel/update/prompt_toolcall.zh-CN.md';
+import prompt_break_help_ja from '@/panel/update/prompt_break.ja.md';
+import prompt_toolcall_help_ja from '@/panel/update/prompt_toolcall.ja.md';
 import { EXTRA_MODEL_RESPONSE_FORMATS, useDataStore } from '@/store';
 import { computed, watch } from 'vue';
 
@@ -99,10 +97,10 @@ const fake_streaming_model = computed({
 });
 const available_preset_names = computed(() => getAvailableExtraModelPresetNames());
 const prompt_break_help = computed(() =>
-    locale.value === 'zh-CN' ? prompt_break_help_zh_cn : prompt_break_help_en
+    prompt_break_help_ja
 );
 const prompt_toolcall_help = computed(() =>
-    locale.value === 'zh-CN' ? prompt_toolcall_help_zh_cn : prompt_toolcall_help_en
+    prompt_toolcall_help_ja
 );
 const jailbreak_options = computed(() => [
     { value: '内蔵脱獄を使用', label: t('panel.prompt.jailbreak.builtin') },

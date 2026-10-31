@@ -105,8 +105,7 @@ import { setCharacterSettingsOverride } from '@/function/character_override';
 import type { CharacterSettingsOverridePath } from '@/function/character_override/schema';
 import { compileEntryCommentRegex } from '@/function/request/entry_comment_regex';
 import { useMvuI18n } from '@/i18n';
-import character_override_help_en from '@/panel/character_override_help.en.md';
-import character_override_help_zh_cn from '@/panel/character_override_help.zh-CN.md';
+import character_override_help_ja from '@/panel/character_override_help.ja.md';
 import Detail from '@/panel/component/Detail.vue';
 import Field from '@/panel/component/Field.vue';
 import HelpIcon from '@/panel/component/HelpIcon.vue';
@@ -127,7 +126,7 @@ const title = computed(() =>
     )
 );
 const character_override_help = computed(() =>
-    locale.value === 'zh-CN' ? character_override_help_zh_cn : character_override_help_en
+    character_override_help_ja
 );
 
 const is_editable = computed(

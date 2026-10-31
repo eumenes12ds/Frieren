@@ -25,15 +25,14 @@
 import { useMvuI18n } from '@/i18n';
 import HelpIcon from '@/panel/component/HelpIcon.vue';
 import Select from '@/panel/component/Select.vue';
-import update_method_help_en from '@/panel/update_method.en.md';
-import update_method_help_zh_cn from '@/panel/update_method.zh-CN.md';
+import update_method_help_ja from '@/panel/update_method.ja.md';
 import { useDataStore } from '@/store';
 import { computed } from 'vue';
 
 const store = useDataStore();
 const { locale, t } = useMvuI18n();
 const update_method_help = computed(() =>
-    locale.value === 'zh-CN' ? update_method_help_zh_cn : update_method_help_en
+    update_method_help_ja
 );
 const update_method_options = computed(() => [
     { value: '主AI追従出力', label: t('panel.update.method.aiOutput') },

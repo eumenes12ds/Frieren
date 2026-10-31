@@ -1,0 +1,289 @@
+[
+  {
+    "package": "@anthropic-ai/sdk",
+    "version": "0.129.0",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.129.0.tgz",
+    "tarballSha256": "dafba131471d2fe98faddbaed7fb8d590efa334dff881fdee6a0d8a6e1e2dfb2",
+    "files": [
+      "licenses/@anthropic-ai__sdk/0.129.0/package__LICENSE",
+      "licenses/@anthropic-ai__sdk/0.129.0/package__src__internal__qs__LICENSE.md"
+    ]
+  },
+  {
+    "package": "@babel/runtime",
+    "version": "7.29.2",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz",
+    "tarballSha256": "91d6dda69e8514cca05e8bda7f6fe19b80f9a405fbd88c21e4eccc54f10f87e5",
+    "files": [
+      "licenses/@babel__runtime/7.29.2/package__LICENSE"
+    ]
+  },
+  {
+    "package": "@earendil-works/pi-ai",
+    "version": "1.3.0",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-1.3.0.tgz",
+    "tarballSha256": "5343e1639bf343bdc3344df3ad6c31c05a50b68bad07ac6bce10890d4b6b8a61",
+    "files": [
+      "licenses/@earendil-works__pi-ai/1.3.0/LICENSE"
+    ]
+  },
+  {
+    "package": "@google/genai",
+    "version": "2.21.0",
+    "license": "Apache-2.0",
+    "tarball": "https://registry.npmjs.org/@google/genai/-/genai-2.21.0.tgz",
+    "tarballSha256": "859e07d3fee1453ced3d60c2d48ce1b88894d2785b23f3cbd850c062bca1dfc6",
+    "files": [
+      "licenses/@google__genai/2.21.0/package__LICENSE"
+    ]
+  },
+  {
+    "package": "@intlify/core-base",
+    "version": "11.4.16",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@intlify/core-base/-/core-base-11.4.16.tgz",
+    "tarballSha256": "feb545e71a840674848e8515b316cfaf6533affea698a94b7418c9e2dd5197ed",
+    "files": [
+      "licenses/@intlify__core-base/11.4.16/package__LICENSE"
+    ]
+  },
+  {
+    "package": "@intlify/message-compiler",
+    "version": "11.4.16",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@intlify/message-compiler/-/message-compiler-11.4.16.tgz",
+    "tarballSha256": "f7764f52df7e5982b0c71fcce18b3091b2fd7a538fbf5a20bbad3863c7380afb",
+    "files": [
+      "licenses/@intlify__message-compiler/11.4.16/package__LICENSE"
+    ]
+  },
+  {
+    "package": "@intlify/shared",
+    "version": "11.4.16",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@intlify/shared/-/shared-11.4.16.tgz",
+    "tarballSha256": "f9e88fd077370f464b446bbb5d868c6205f652f0577f4753f762ce3be8428259",
+    "files": [
+      "licenses/@intlify__shared/11.4.16/package__LICENSE"
+    ]
+  },
+  {
+    "package": "@stablelib/base64",
+    "version": "1.0.1",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/@stablelib/base64/-/base64-1.0.1.tgz",
+    "tarballSha256": "0130711d2e0d3f87436c7825db1f35bd6134fba2eda64b0df43d781f9b6a596a",
+    "files": [
+      "licenses/@stablelib__base64/1.0.1/package__LICENSE"
+    ]
+  },
+  {
+    "package": "compare-versions",
+    "version": "6.1.1",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/compare-versions/-/compare-versions-6.1.1.tgz",
+    "tarballSha256": "0684b34270378cae9de9573fcd0e0677ede9c50ca09a66f095d002987df191db",
+    "files": [
+      "licenses/compare-versions/6.1.1/package__LICENSE"
+    ]
+  },
+  {
+    "package": "complex.js",
+    "version": "2.4.3",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/complex.js/-/complex.js-2.4.3.tgz",
+    "tarballSha256": "7361293580b57abbcdfd3df713655f5ac672149f1afe6dd0a7855ccffaff931f",
+    "files": [
+      "licenses/complex.js/2.4.3/package__LICENSE"
+    ]
+  },
+  {
+    "package": "decimal.js",
+    "version": "10.6.0",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz",
+    "tarballSha256": "433210122e8149972f64054c54b0ce0872e5f15a3c5835aab57ff1a8e6d071b1",
+    "files": [
+      "licenses/decimal.js/10.6.0/package__LICENCE.md"
+    ]
+  },
+  {
+    "package": "escape-latex",
+    "version": "1.2.0",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/escape-latex/-/escape-latex-1.2.0.tgz",
+    "tarballSha256": "2284d4b6a0d94cbd7bc0830052a545cc6140f9b5384830f76444bec28e4195af",
+    "files": [
+      "licenses/escape-latex/1.2.0/package__LICENSE.md"
+    ]
+  },
+  {
+    "package": "fast-sha256",
+    "version": "1.3.0",
+    "license": "Unlicense",
+    "tarball": "https://registry.npmjs.org/fast-sha256/-/fast-sha256-1.3.0.tgz",
+    "tarballSha256": "4f897ea2594dc9cfb1250e7d4d0f65b4f105952a802fff2d06990bf1dc2c84f6",
+    "files": [
+      "licenses/fast-sha256/1.3.0/package__LICENSE"
+    ]
+  },
+  {
+    "package": "fraction.js",
+    "version": "5.3.4",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/fraction.js/-/fraction.js-5.3.4.tgz",
+    "tarballSha256": "27e23d8e5ad285541e13e4befc51d39739354abe1f71a348de08a1c88a54a124",
+    "files": [
+      "licenses/fraction.js/5.3.4/package__LICENSE"
+    ]
+  },
+  {
+    "package": "javascript-natural-sort",
+    "version": "0.7.1",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz",
+    "tarballSha256": "541e461ad7a0253d8f83ac242ada0adb388d9835c4db4afb30cf249469ac1284",
+    "files": [
+      "licenses/javascript-natural-sort/0.7.1/package__naturalSort.js",
+      "licenses/javascript-natural-sort/0.7.1/package__README.md",
+      "licenses/javascript-natural-sort/0.7.1/package__package.json"
+    ]
+  },
+  {
+    "package": "json5",
+    "version": "2.2.3",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+    "tarballSha256": "08afb33db600d11fc89b98fac4054f19d5d3e0fe527063116150e1ecc2d2377b",
+    "files": [
+      "licenses/json5/2.2.3/package__LICENSE.md"
+    ]
+  },
+  {
+    "package": "jsonrepair",
+    "version": "3.15.0",
+    "license": "ISC",
+    "tarball": "https://registry.npmjs.org/jsonrepair/-/jsonrepair-3.15.0.tgz",
+    "tarballSha256": "4e099187dca3fbbbbd004116f15ad8b07ae0ed9e3e2fa255cf00a58c142453b3",
+    "files": [
+      "licenses/jsonrepair/3.15.0/package__LICENSE.md"
+    ]
+  },
+  {
+    "package": "klona",
+    "version": "2.0.6",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/klona/-/klona-2.0.6.tgz",
+    "tarballSha256": "d88f1971bbe433d6601c014927a7c4fba4c24a806a60bb5eef0e0f44497d4c6b",
+    "files": [
+      "licenses/klona/2.0.6/package__license"
+    ]
+  },
+  {
+    "package": "mathjs",
+    "version": "15.2.0",
+    "license": "Apache-2.0",
+    "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-15.2.0.tgz",
+    "tarballSha256": "cb99d6e259c42193863aea504d694ac3fc6df4753ff126ccf8dcb9c441ce5451",
+    "files": [
+      "licenses/mathjs/15.2.0/package__LICENSE",
+      "licenses/mathjs/15.2.0/package__NOTICE"
+    ]
+  },
+  {
+    "package": "openai",
+    "version": "7.19.0",
+    "license": "Apache-2.0",
+    "tarball": "https://registry.npmjs.org/openai/-/openai-7.19.0.tgz",
+    "tarballSha256": "597532dcb9051ee8aa5edadedb57b798b42add68cc5aec1d67e994d0cfad07f1",
+    "files": [
+      "licenses/openai/7.19.0/package__LICENSE",
+      "licenses/openai/7.19.0/package__src___vendor__partial-json-parser__LICENSE",
+      "licenses/openai/7.19.0/package__src___vendor__zod-to-json-schema__LICENSE",
+      "licenses/openai/7.19.0/package__src__internal__qs__LICENSE.md"
+    ]
+  },
+  {
+    "package": "p-retry",
+    "version": "4.6.2",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/p-retry/-/p-retry-4.6.2.tgz",
+    "tarballSha256": "21112bb484de3120e9e85f1ebe6a66125ecfda48072ae48b0d202693337fb558",
+    "files": [
+      "licenses/p-retry/4.6.2/package__license"
+    ]
+  },
+  {
+    "package": "partial-json",
+    "version": "0.1.7",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/partial-json/-/partial-json-0.1.7.tgz",
+    "tarballSha256": "30eafeed6fdc25fb2ca24f34c37796d9f98f0bf5e156452b98a2c356762f6322",
+    "files": [
+      "licenses/partial-json/0.1.7/package__LICENSE"
+    ]
+  },
+  {
+    "package": "retry",
+    "version": "0.13.1",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/retry/-/retry-0.13.1.tgz",
+    "tarballSha256": "7521d8445e845475e888ccb7af473c4afb17aabafefe35a23371a8a8c79b8084",
+    "files": [
+      "licenses/retry/0.13.1/package__License"
+    ]
+  },
+  {
+    "package": "seedrandom",
+    "version": "3.0.5",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz",
+    "tarballSha256": "f217e14961edb2a61f23b3eaee7477578021f0db15f69941a866e9f55e518544",
+    "files": [
+      "licenses/seedrandom/3.0.5/package__seedrandom.js.LICENSE.txt"
+    ]
+  },
+  {
+    "package": "standardwebhooks",
+    "version": "1.1.1",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/standardwebhooks/-/standardwebhooks-1.1.1.tgz",
+    "tarballSha256": "d0bc8fec280c9e30ea3cbc876f44fe71d56f443aeca2bd2bdf745718308d4aed",
+    "files": [
+      "licenses/standardwebhooks/1.1.1/LICENSE"
+    ]
+  },
+  {
+    "package": "tiny-emitter",
+    "version": "2.1.0",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz",
+    "tarballSha256": "538c1ea30c1ec068d85c679bb900f3407dcbc0cf65ff0191c4ccba47dc01713a",
+    "files": [
+      "licenses/tiny-emitter/2.1.0/package__LICENSE"
+    ]
+  },
+  {
+    "package": "typebox",
+    "version": "1.3.27",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/typebox/-/typebox-1.3.27.tgz",
+    "tarballSha256": "5a288bcd3d68f44567de84b185e04d205ef7d5b53602846bc3db30fdd219dda3",
+    "files": [
+      "licenses/typebox/1.3.27/package__license"
+    ]
+  },
+  {
+    "package": "typed-function",
+    "version": "4.2.2",
+    "license": "MIT",
+    "tarball": "https://registry.npmjs.org/typed-function/-/typed-function-4.2.2.tgz",
+    "tarballSha256": "c4895d039f67dca8feb02a35d3ec5bdeca55b9a7bb0c8272acc3c1aab9955e47",
+    "files": [
+      "licenses/typed-function/4.2.2/package__LICENSE"
+    ]
+  }
+]

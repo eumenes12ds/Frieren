@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/standard-webhooks/standard-webhooks/ab6844147ce9cdb0d2dbf2e60d1ea85001fd2554/LICENSE
+Registry declares MIT

@@ -2,3 +2,6 @@ node_modules/
 artifact/*.map
 *.log
 .env
+runtime-downloads/
+source/MagVarUpdate/artifact/
+source/MagVarUpdate/.claude/

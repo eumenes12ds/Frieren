@@ -42,7 +42,7 @@ function cloneSchema(schema: Record<string, unknown>): Record<string, unknown> {
         return structuredClone(schema);
     } catch (cause) {
         throw new PiResultAdapterError(
-            `工具参数 schema 无法复制：${cause instanceof Error ? cause.message : String(cause)}`,
+            `ツール引数スキーマを複製できません：${cause instanceof Error ? cause.message : String(cause)}`,
             'invalid-tool-call'
         );
     }
@@ -83,7 +83,7 @@ export const toPiTool = toPiToolDefinition;
 /** 把 Pi ツール呼び出し转换为酒馆结果结构，序列化参数并保留思考签名。 */
 function normalizeToolCall(call: ToolCall): GenerateToolCallResult['tool_calls'][number] {
     if (!call.id?.trim() || !call.name?.trim() || !isPlainObject(call.arguments)) {
-        throw new PiResultAdapterError('その他来源返回了无效的ツール呼び出し', 'invalid-tool-call');
+        throw new PiResultAdapterError('「その他」から無効なツール呼び出しが返されました', 'invalid-tool-call');
     }
 
     let argumentsValue: string;
@@ -91,7 +91,7 @@ function normalizeToolCall(call: ToolCall): GenerateToolCallResult['tool_calls']
         argumentsValue = JSON.stringify(call.arguments);
     } catch (cause) {
         throw new PiResultAdapterError(
-            `その他来源工具参数无法序列化：${cause instanceof Error ? cause.message : String(cause)}`,
+            `「その他」のツール引数をシリアライズできません：${cause instanceof Error ? cause.message : String(cause)}`,
             'invalid-tool-call'
         );
     }
@@ -114,7 +114,7 @@ function assertSuccessfulStopReason(message: AssistantMessage): void {
         case 'toolUse':
             return;
         case 'length':
-            throw new PiResultAdapterError('その他来源回复因达到长度上限而被截断', 'length');
+            throw new PiResultAdapterError('「その他」の応答が長さの上限に達し、途中で切れました', 'length');
         case 'aborted':
             throw new PiResultAdapterError('その他来源请求已取消', 'aborted');
         case 'error': {
@@ -135,7 +135,7 @@ function assertSuccessfulStopReason(message: AssistantMessage): void {
         case 'pending':
         case 'deferred':
             throw new PiResultAdapterError(
-                'その他来源回复尚未完成，当前不支持 deferred 结果',
+                '「その他」の応答が未完了です。deferred結果には現在対応していません',
                 'deferred'
             );
         default: {
@@ -166,7 +166,7 @@ export function fromPiAssistantMessage(message: AssistantMessage): string | Gene
 
     if (message.stopReason === 'toolUse' && toolCalls.length === 0) {
         throw new PiResultAdapterError(
-            'その他来源以 toolUse 结束，但没有返回ツール呼び出し',
+            '「その他」がtoolUseで終了しましたが、ツール呼び出しが返されませんでした',
             'invalid-tool-call'
         );
     }

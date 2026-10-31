@@ -81,8 +81,7 @@ import HelpIcon from '@/panel/component/HelpIcon.vue';
 import OverrideBadge from '@/panel/component/OverrideBadge.vue';
 import RangeNumber from '@/panel/component/RangeNumber.vue';
 import Select from '@/panel/component/Select.vue';
-import request_method_help_en from '@/panel/update/request_method.en.md';
-import request_method_help_zh_cn from '@/panel/update/request_method.zh-CN.md';
+import request_method_help_ja from '@/panel/update/request_method.ja.md';
 import { useDataStore } from '@/store';
 import { compileRegex } from '@/util/regex';
 import { compare } from 'compare-versions';
@@ -103,7 +102,7 @@ const min_request_length = computed({
     },
 });
 const request_method_help = computed(() =>
-    locale.value === 'zh-CN' ? request_method_help_zh_cn : request_method_help_en
+    request_method_help_ja
 );
 const auto_request_override_label = computed(() =>
     t(store.effective_settings.追加モデル解析設定.自動リクエスト有効 ? 'common.enabled' : 'common.disabled')

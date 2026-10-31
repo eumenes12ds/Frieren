@@ -340,7 +340,7 @@ function parseBase64Image(
 ): ImageContent {
     if (url.slice(0, 5).toLowerCase() !== 'data:') {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息包含远程图片 URL；その他来源当前只接受 data URL 图片`,
+            `第 ${sourceIndex}番目のメッセージにリモート画像URLが含まれます。「その他」は現在data URL画像だけに対応しています`,
             'unsupported-content',
             sourceIndex
         );
@@ -348,7 +348,7 @@ function parseBase64Image(
 
     if (url.length > MAX_DATA_URL_HEADER_CHARACTERS + 1 + MAX_ENCODED_CHARACTERS_PER_IMAGE) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息的图片超过单张 ${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage / MEBIBYTE} MiB 上限`,
+            `第 ${sourceIndex}番目のメッセージの画像が1枚あたりの上限を超えています：${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage / MEBIBYTE} MiB 上限`,
             'invalid-image',
             sourceIndex
         );
@@ -357,7 +357,7 @@ function parseBase64Image(
     const separator = findDataUrlSeparator(url);
     if (separator === -1) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息包含无效的 base64 图片 data URL`,
+            `第 ${sourceIndex}番目のメッセージに無効なbase64画像data URLが含まれます`,
             'invalid-image',
             sourceIndex
         );
@@ -366,7 +366,7 @@ function parseBase64Image(
     const headerMatch = /^data:([^;,]+);base64$/i.exec(url.slice(0, separator));
     if (!headerMatch) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息包含无效的 base64 图片 data URL`,
+            `第 ${sourceIndex}番目のメッセージに無効なbase64画像data URLが含まれます`,
             'invalid-image',
             sourceIndex
         );
@@ -376,7 +376,7 @@ function parseBase64Image(
     const mimeType = rawMimeType.toLowerCase();
     if (!SUPPORTED_IMAGE_MIME_TYPES.has(mimeType)) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息的图片 MIME 类型不受支持；只接受 PNG、JPEG、GIF 或 WebP`,
+            `第 ${sourceIndex}番目のメッセージの画像MIME型は非対応です。PNG、JPEG、GIF、WebPだけを使用できます`,
             'invalid-image',
             sourceIndex
         );
@@ -386,14 +386,14 @@ function parseBase64Image(
     const encodedLength = url.length - dataStart;
     if (encodedLength > MAX_ENCODED_CHARACTERS_PER_IMAGE) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息的图片超过单张 ${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage / MEBIBYTE} MiB 上限`,
+            `第 ${sourceIndex}番目のメッセージの画像が1枚あたりの上限を超えています：${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage / MEBIBYTE} MiB 上限`,
             'invalid-image',
             sourceIndex
         );
     }
     if (encodedLength === 0 || encodedLength % 4 !== 0) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息包含无效的 base64 图片数据`,
+            `第 ${sourceIndex}番目のメッセージに無効なbase64画像データが含まれます`,
             'invalid-image',
             sourceIndex
         );
@@ -409,21 +409,21 @@ function parseBase64Image(
     const decodedBytes = (encodedLength / 4) * 3 - padding;
     if (decodedBytes > PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息的图片超过单张 ${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage / MEBIBYTE} MiB 上限`,
+            `第 ${sourceIndex}番目のメッセージの画像が1枚あたりの上限を超えています：${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerImage / MEBIBYTE} MiB 上限`,
             'invalid-image',
             sourceIndex
         );
     }
     if (imageBudget.imageCount + 1 > PI_IMAGE_INPUT_LIMITS.maxImagesPerContext) {
         throw new PiContextAdapterError(
-            `その他来源单次请求最多接受 ${PI_IMAGE_INPUT_LIMITS.maxImagesPerContext} 张图片`,
+            `その他来源单次请求最多接受 ${PI_IMAGE_INPUT_LIMITS.maxImagesPerContext}枚の画像`,
             'invalid-image',
             sourceIndex
         );
     }
     if (imageBudget.decodedBytes + decodedBytes > PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerContext) {
         throw new PiContextAdapterError(
-            `その他来源单次请求的图片总量超过 ${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerContext / MEBIBYTE} MiB 上限`,
+            `「その他」の1リクエストあたりの画像総量が上限を超えています：${PI_IMAGE_INPUT_LIMITS.maxDecodedBytesPerContext / MEBIBYTE} MiB 上限`,
             'invalid-image',
             sourceIndex
         );
@@ -433,7 +433,7 @@ function parseBase64Image(
     for (let offset = dataStart; offset < contentEnd; offset++) {
         if (!isBase64Character(url.charCodeAt(offset))) {
             throw new PiContextAdapterError(
-                `第 ${sourceIndex} 条消息包含无效的 base64 图片数据`,
+                `第 ${sourceIndex}番目のメッセージに無効なbase64画像データが含まれます`,
                 'invalid-image',
                 sourceIndex
             );
@@ -442,7 +442,7 @@ function parseBase64Image(
     for (let offset = contentEnd; offset < url.length; offset++) {
         if (url.charCodeAt(offset) !== 0x3d) {
             throw new PiContextAdapterError(
-                `第 ${sourceIndex} 条消息包含无效的 base64 图片数据`,
+                `第 ${sourceIndex}番目のメッセージに無効なbase64画像データが含まれます`,
                 'invalid-image',
                 sourceIndex
             );
@@ -454,7 +454,7 @@ function parseBase64Image(
         decodedHeader = decodeImageHeader(url, dataStart, encodedLength);
     } catch {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息包含无法解码的 base64 图片数据`,
+            `第 ${sourceIndex}番目のメッセージに復号できないbase64画像データが含まれます`,
             'invalid-image',
             sourceIndex
         );
@@ -462,7 +462,7 @@ function parseBase64Image(
 
     if (!hasRecognizableImageSignature(mimeType, decodedHeader)) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息的图片数据与声明的 MIME 类型不匹配或缺少有效文件头`,
+            `第 ${sourceIndex}番目のメッセージの画像データが指定MIME型と一致しないか、有効なファイルヘッダーがありません`,
             'invalid-image',
             sourceIndex
         );
@@ -496,7 +496,7 @@ function convertContentBlock(
     }
     if (block.type === 'video_url') {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条消息包含その他来源不支持的视频内容`,
+            `第 ${sourceIndex}番目のメッセージに「その他」が対応していない動画が含まれます`,
             'unsupported-content',
             sourceIndex
         );
@@ -504,7 +504,7 @@ function convertContentBlock(
     if (block.type === 'image_url') {
         if (!allowImages) {
             throw new PiContextAdapterError(
-                `第 ${sourceIndex} 条 assistant 消息包含无法导入その他来源历史的图片`,
+                `第 ${sourceIndex}番目のassistantメッセージに「その他」の履歴へ取り込めない画像が含まれます`,
                 'unsupported-content',
                 sourceIndex
             );
@@ -513,7 +513,7 @@ function convertContentBlock(
     }
 
     throw new PiContextAdapterError(
-        `第 ${sourceIndex} 条消息包含未知内容块`,
+        `第 ${sourceIndex}番目のメッセージに不明なコンテンツブロックが含まれます`,
         'unsupported-content',
         sourceIndex
     );
@@ -555,7 +555,7 @@ function extractSystemText(message: SendingMessage, sourceIndex: number): string
         const textBlocks = content.map(block => {
             if (block.type !== 'text') {
                 throw new PiContextAdapterError(
-                    `第 ${sourceIndex} 条 system 消息包含非文本内容`,
+                    `第 ${sourceIndex}番目のsystemメッセージにテキスト以外の内容が含まれます`,
                     'unsupported-content',
                     sourceIndex
                 );
@@ -587,14 +587,14 @@ function parseToolArguments(argumentsValue: string, sourceIndex: number): ToolCa
         parsed = JSON.parse(argumentsValue);
     } catch {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条 assistant 消息包含无法解析的工具参数`,
+            `第 ${sourceIndex}番目のassistantメッセージに解析できないツール引数が含まれます`,
             'invalid-tool-call',
             sourceIndex
         );
     }
     if (!isPlainObject(parsed)) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条 assistant 消息的工具参数必须是 JSON object`,
+            `第 ${sourceIndex}番目のassistantメッセージのツール引数はJSON objectである必要があります`,
             'invalid-tool-call',
             sourceIndex
         );
@@ -612,7 +612,7 @@ function convertToolCalls(
     return (message.tool_calls ?? []).map(call => {
         if (!call.id || !call.function?.name) {
             throw new PiContextAdapterError(
-                `第 ${sourceIndex} 条 assistant 消息包含无效ツール呼び出し`,
+                `第 ${sourceIndex}番目のassistantメッセージに無効なツール呼び出しが含まれます`,
                 'invalid-tool-call',
                 sourceIndex
             );
@@ -620,7 +620,7 @@ function convertToolCalls(
         const existingName = toolNamesById.get(call.id);
         if (existingName && existingName !== call.function.name) {
             throw new PiContextAdapterError(
-                `ツール呼び出し ID ${call.id} 对应了多个工具名`,
+                `ツール呼び出し ID ${call.id}に複数のツール名が対応しています`,
                 'invalid-tool-call',
                 sourceIndex
             );
@@ -673,7 +673,7 @@ function convertToolResultMessage(
     const toolCallId = message.tool_call_id;
     if (!toolCallId) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条 tool 消息缺少 tool_call_id`,
+            `第 ${sourceIndex}番目のtoolメッセージにtool_call_idがありません`,
             'missing-tool-call',
             sourceIndex
         );
@@ -681,7 +681,7 @@ function convertToolResultMessage(
     const toolName = toolNamesById.get(toolCallId);
     if (!toolName) {
         throw new PiContextAdapterError(
-            `第 ${sourceIndex} 条 tool 消息找不到对应的历史ツール呼び出し`,
+            `第 ${sourceIndex}番目のtoolメッセージに対応する過去のツール呼び出しがありません`,
             'missing-tool-call',
             sourceIndex
         );
@@ -794,7 +794,7 @@ export function toPiContext(
             continue;
         }
         throw new PiContextAdapterError(
-            `第 ${index} 条消息包含未知角色`,
+            `第 ${index}番目のメッセージに不明なロールが含まれます`,
             'unsupported-content',
             index
         );

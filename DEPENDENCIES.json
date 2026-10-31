@@ -1,0 +1,584 @@
+{
+  "upstreamCommit": "d03b7dc8a6ebf9bd611c7e2dc91f3b35462deebc",
+  "modules": [
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@anthropic-ai/sdk@0.129.0/+esm",
+      "upstreamSha256": "85ee5417b3dfa2d6b3ec2a05d656dd6dc2d3514851db3076fc68d96f2d53113b",
+      "file": "runtime/modules/c887961590ce135eaf6d68cb.js",
+      "sha256": "d79f7dd074b684943883d32aa23b6e2e933592625b3e4913afcd6e8d4788b70b",
+      "bytes": 191863
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@anthropic-ai/sdk@0.129.0/internal/node.browser.mjs/+esm",
+      "upstreamSha256": "814217d35302239b88c5e606df383354e2cdb12896a9b3368bc7592c1d2fdf40",
+      "file": "runtime/modules/917980f7ac1f1400e93b2dbf.js",
+      "sha256": "f4b1a26101d5db5ee0f2146428587fb6540e9210950eb5ed9110b477a94bda6e",
+      "bytes": 684
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@anthropic-ai/sdk@0.129.0/tools/agent-toolset/node.browser.mjs/+esm",
+      "upstreamSha256": "3b787da238ec8aa7d8db936c32495753366112b55085ed7abe53ba19c9b6eac4",
+      "file": "runtime/modules/e50b0959ca9795003bc4e037.js",
+      "sha256": "1dd75afe00f7dba9304948f7eb9408e2a146c089e948e1a4a4376bd0d4e264e9",
+      "bytes": 2074
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@babel/runtime@7.29.2/helpers/defineProperty/+esm",
+      "upstreamSha256": "e649731e0a92c66ba755fccfe9825af9209cbd06907e302a0d449433190f66b4",
+      "file": "runtime/modules/6f3c58f84969edbea14fd999.js",
+      "sha256": "51656efb227c65472d42a18e0516fd320125c5ea3107c5153e442378dca4dd50",
+      "bytes": 982
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@babel/runtime@7.29.2/helpers/extends/+esm",
+      "upstreamSha256": "ec0d3fce0e9fd17f25cea2126048308d34bc56cd8674f2d307cf2e59bb1cd303",
+      "file": "runtime/modules/bf80c6b002dfa53793aa3e1c.js",
+      "sha256": "c80134051c863d91cc01952fb1a4fc8420260dc171165fd32ceba327d6febfb2",
+      "bytes": 506
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/+esm",
+      "upstreamSha256": "4f95fb617dcbd87860a70a142aea75935c1c48e344d7a4e69eaa47cf039e93d7",
+      "file": "runtime/modules/8c443923213fab0fde75ab99.js",
+      "sha256": "581e6408e701d5a194433d0fbf4d7852609c0a7f6232dc1f78380d66e40b7057",
+      "bytes": 45952
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/anthropic-messages.lazy/+esm",
+      "upstreamSha256": "c6a369958552084f5314a6869a2f5673f522000b9214d38d4565d4ba8fbb5e15",
+      "file": "runtime/modules/a7b84ec1a317f26cc2ee0531.js",
+      "sha256": "f623cb37eac7e451c40aaec27baba910dde1d27cccd76ac3370ac52f6a582449",
+      "bytes": 2683
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/google-generative-ai.lazy/+esm",
+      "upstreamSha256": "e6d47c6a35f81d362213c44ec41e74add9594a590fe5a127a2535ed52ce59e48",
+      "file": "runtime/modules/7abb2299b23b20e9963c4ff0.js",
+      "sha256": "a4dd01f7a35bb35a40bea3e04b4ccd3ec554d8e275b6231a8094119f01cd3814",
+      "bytes": 2686
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/google-shared/+esm",
+      "upstreamSha256": "2f7811551815ee1da84c1816f7988e433d119217568525df6546b439986cb346",
+      "file": "runtime/modules/1f065d2f5c27367175608736.js",
+      "sha256": "f626d55f51b21bbf27f7d9dfefb974450b5c0608fba339948c3c55247055317e",
+      "bytes": 13092
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/mistral-conversations.lazy/+esm",
+      "upstreamSha256": "97998a6ee445b24f5edcfeaf71fa7bdaf4805b30011de861178b6ec612b7c781",
+      "file": "runtime/modules/e9e837c76cf91f72f3ee7176.js",
+      "sha256": "05f308062b8f172926c1a4237a2aed0038a6f96bcadccaeef65871c9e7b20cca",
+      "bytes": 2689
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/openai-codex-responses.lazy/+esm",
+      "upstreamSha256": "9b695ac49588db332986f6e0f26a716d2705ffe9f1f23d31dc7e3aef51039d7a",
+      "file": "runtime/modules/703835f6ee9ea15e92c49f86.js",
+      "sha256": "29cf2801f034060fe9b8d186ae1fbc54e067814c7cbcb24480bae2208081f397",
+      "bytes": 2690
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/openai-completions.lazy/+esm",
+      "upstreamSha256": "86647bd2aa462c60287003d4ff56b79ae7c8e0bd16dc5bc185776cd2b480afc3",
+      "file": "runtime/modules/540bb1c7ca9754edca4f9aeb.js",
+      "sha256": "371cc7ed0e9a89559d89d53db55478261e9d70663e9cb3e6cee4a139c9b33eb0",
+      "bytes": 2683
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/openai-responses.lazy/+esm",
+      "upstreamSha256": "f87f2a3c0632bbec441d563f3bce4796634a0504983b11ba17e33902f998a4b3",
+      "file": "runtime/modules/97d0d1efb72070db7fefc839.js",
+      "sha256": "c22baee0261af1dda4f03177eff60c834f52199bcc138c34407c19edfbe040df",
+      "bytes": 2679
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/api/simple-options/+esm",
+      "upstreamSha256": "f04b2c978b75aade5e3683ff0d5ec79add03cb99cf56c540982b99c7b3527942",
+      "file": "runtime/modules/61e3f184a3f6c8cde6d6c99a.js",
+      "sha256": "789fa9595eaac18fff26d55f8e8d936d859b680712493ff1d6258a40dd9c1ae2",
+      "bytes": 3818
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/dist/api/anthropic-messages.js/+esm",
+      "upstreamSha256": "df452f652804b45b84132c43f86ec03e62d929d00992719f55335dd26ef4e31a",
+      "file": "runtime/modules/af4572891033e017bc2c656f.js",
+      "sha256": "4832707cac6320f8b682b34e8c5bcb9168b38db34ceedb9057b45a37adc86ad7",
+      "bytes": 39293
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/dist/api/google-generative-ai.js/+esm",
+      "upstreamSha256": "fa4d84335ecd617e3d39a68ba213ac9cc9b8810161e80520c916a75abe766bc3",
+      "file": "runtime/modules/6e8246e2e1ec0a4c5a16d653.js",
+      "sha256": "7002ed6a22f22598eb873c505072fc1d250613571dae9d490132b6984a217ea0",
+      "bytes": 26633
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/dist/api/mistral-conversations.js/+esm",
+      "upstreamSha256": "e856fd6b4a1a4d6e18a8116f847493697c70531ac6629cf6350ec21483b54c4a",
+      "file": "runtime/modules/0214c3142a0985f69ffb3ac4.js",
+      "sha256": "523f7149666dfd2368a37850103b37f5f34530a517cbd8ded42c6e8eb902e4df",
+      "bytes": 27686
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/dist/api/openai-codex-responses.js/+esm",
+      "upstreamSha256": "ed0e8610b243f608b792a2f1e764b5a616aba01ad2c08cf9494b01db0b4bf1b6",
+      "file": "runtime/modules/94d6f8be198fc6a97c0f5618.js",
+      "sha256": "7e6da4ed74d7bcd229e6f9b0e6d5c0b496c8a1fd9fcd65792d0c3431e3f4d5bd",
+      "bytes": 55838
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/dist/api/openai-completions.js/+esm",
+      "upstreamSha256": "703ad19711fdbc7e7cfd58a1ab2efed4f847258b581ada919d6930048c619d61",
+      "file": "runtime/modules/67d5b99d5d7bb355da0e5919.js",
+      "sha256": "b1c5e00ed6fb3729d9bfe1ef84d67a4548b2c06bb9bbc2ba1f58b240f4d74938",
+      "bytes": 44244
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/dist/api/openai-responses.js/+esm",
+      "upstreamSha256": "fcab851670fa01c3fdecf3c1f69aff18d5aabec4ccb2c444bce7c7428ee0bebc",
+      "file": "runtime/modules/0748926d3d67e0a9fee61e16.js",
+      "sha256": "d0b548ab95e9cb802e2906fc1fc909ec8c8b8ef9eefdb97e5452f3df8fea6795",
+      "bytes": 39978
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/ant-ling.models/+esm",
+      "upstreamSha256": "212ef3059ad18ba2e85cbd111a7169357b10fdcb29565fb956f14c07ec11620b",
+      "file": "runtime/modules/f6bf4b112fe0342f0373973f.js",
+      "sha256": "a74fb589261beb15b3b8bf90f4d63d35a1023091c7479d4590bfc00574d74c96",
+      "bytes": 2164
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/anthropic.models/+esm",
+      "upstreamSha256": "3c3d2b08688214bb8cf8a5b18f5abab3a24e46d0b74369aa788d17ebfe1bcf0a",
+      "file": "runtime/modules/bb421cc59340b046f2ac1e1d.js",
+      "sha256": "81c65684ed73eb45a527f203ce2072148683ed9b44664a1f05bb212cc8db55a6",
+      "bytes": 11027
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/baseten.models/+esm",
+      "upstreamSha256": "e7917f4a6336aa2f008e56076f17fa02df60749653b9689c45029ebae1e8376a",
+      "file": "runtime/modules/70619198a4f519f40afa0ff0.js",
+      "sha256": "e3657640ff6823fc057a46a0b7ac3f398363945198ff4388aff551d4649e06ec",
+      "bytes": 16487
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/cerebras.models/+esm",
+      "upstreamSha256": "40b42dcf0c356d6dd9edc22747ec6397f1d7c60fba201a94ea020c66f3c9af56",
+      "file": "runtime/modules/325125893cad418f8d53545d.js",
+      "sha256": "1c6edb2b47a7710c1dc68ad5502d19ae3726684a3da5ea88c5b75b51d70d849d",
+      "bytes": 1652
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/deepseek.models/+esm",
+      "upstreamSha256": "8d8ba02b3078c3125d69fbc9b544e498038ea5ab07dfc85d242b822ebae35062",
+      "file": "runtime/modules/774a93d17296aa6e9d95321a.js",
+      "sha256": "8bbb80e957ac7d4ea6db29dcfcf5312ee9ba1da0c8ba03bfbf44d96756010083",
+      "bytes": 1898
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/fireworks.models/+esm",
+      "upstreamSha256": "d69a3e6730e6469742f86957421d1f9f203e3858aed398af2077f379949e6f3d",
+      "file": "runtime/modules/7e97f8508c79679d09ca00bb.js",
+      "sha256": "350ed4ad87ed8f22d4b3a6efb227c7cce8466b08675158d0fabcc30fa69430c1",
+      "bytes": 15062
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/github-copilot.models/+esm",
+      "upstreamSha256": "498dd69876843b8c49b97a566133510404ae86a034e07f3db922c01be13b9512",
+      "file": "runtime/modules/6f01f8cdbfe4f6962255d377.js",
+      "sha256": "a0824c0295b11342c2bea40fd9ab0ae7be1f9d3e37a2d4cd070c93d0ce6fc164",
+      "bytes": 26831
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/google.models/+esm",
+      "upstreamSha256": "7e45b6e739a9f1bc4e958e6183af73ea919db80967760384bfb7ba9f12e1c4a5",
+      "file": "runtime/modules/2ded54c2ad1696b07bb0e3a9.js",
+      "sha256": "9b8384eea02f6b808efb0d2ab4ef016dc55b5b8c8d6ebdb58280a8083b37ec23",
+      "bytes": 13610
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/groq.models/+esm",
+      "upstreamSha256": "e4fe279c445ae1ee030249e8963b8d1b7851640c9161ae149a39a380f2864d01",
+      "file": "runtime/modules/0697b7e7b38c1c944828cc14.js",
+      "sha256": "a6d29ea96b75538835f7457f4583a7e9dd18f42516fd1662a2f348c35b319666",
+      "bytes": 3611
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/huggingface.models/+esm",
+      "upstreamSha256": "11c11ed9ee9183e64d0ab8434b37767672230f5cd5bbedd4ef18390853f863cb",
+      "file": "runtime/modules/e2cff625059ce06cc1656cea.js",
+      "sha256": "78d7b8ff479b2b3833f7de4df80cd2dbd3523a26a89f4381676bab2ab9c4e677",
+      "bytes": 33797
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/kimi-coding.models/+esm",
+      "upstreamSha256": "0ac9f5ee6dc5fd2d72bb9b3b587dd5ffefb9baeb2a31a89b90bf4b7814d7e51f",
+      "file": "runtime/modules/f088480693c9dc22438e9530.js",
+      "sha256": "78f1df9be78f11163f3e0c75c79a56dc42b47d3df709dbfb9a5a963efd1bdf2f",
+      "bytes": 3551
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/minimax-cn.models/+esm",
+      "upstreamSha256": "90c58d987fa18f5901af85daab8fc0f3a3a0a8a4f460d30f39f1e3ccd12c5230",
+      "file": "runtime/modules/f8afd9f8d96505f0257a71ea.js",
+      "sha256": "603d940a36d1fc6648c3c52b9d00a9abd3fa89c9ac7bd3ab96a19bfba2f95797",
+      "bytes": 1776
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/minimax.models/+esm",
+      "upstreamSha256": "29a5a1a7b1b4ec39e5d3b55631aa30c5103612da6c5e03119d9ad3440bb12a07",
+      "file": "runtime/modules/fbae83309c235d7ddeeb10b4.js",
+      "sha256": "6b0bc637ebd15760daf85ccd18809a179da2ad2be0caf3c7598b43c491329622",
+      "bytes": 1740
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/mistral.models/+esm",
+      "upstreamSha256": "ee76d14365e3fe6f4fa47e4801a4d94c84e2abd01840ae849f49bdd1aa5553a8",
+      "file": "runtime/modules/6c4dda4f08fc992924e70e79.js",
+      "sha256": "2dd27fad339144d0303b4aa5e1ba3d34f076d749a7bc19d2ccd66ee32ab260c1",
+      "bytes": 15220
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/moonshotai-cn.models/+esm",
+      "upstreamSha256": "fecccf07584b8d6754933d0bf1c60c47daf6b2a92e3f340c6b8b0fe2ed317868",
+      "file": "runtime/modules/9b4400efb86dabd4d94fb591.js",
+      "sha256": "f996c974148364768be0cfd48e3bc5390b001046376d56108403539882e0a179",
+      "bytes": 3248
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/moonshotai.models/+esm",
+      "upstreamSha256": "c1f3af590f3f398bcd45facf2cf7b39fdfaa4b97e017815431ffff810f835ae3",
+      "file": "runtime/modules/1f88d6128c75a4ecc88549ec.js",
+      "sha256": "f929b32dd960da6a12636e5155b5d89525aa20fa23c14671644bd25ba774a91c",
+      "bytes": 3215
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/nvidia.models/+esm",
+      "upstreamSha256": "3212824db67b352c2f0f6d4565c1122ec9b2270e8a9eace05233c70828979349",
+      "file": "runtime/modules/dd7740a685d0755045a68fef.js",
+      "sha256": "57081419cf627b4572081be758418922a185d3969676b8ef29df2938db3f48ef",
+      "bytes": 12242
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/openai-codex.models/+esm",
+      "upstreamSha256": "9030bd76c725e8dc45b2eaf5da5ac9470d3c8af745f1733569448ed6c9750219",
+      "file": "runtime/modules/8b19d63b94fa1cfba253e777.js",
+      "sha256": "e600e782a43a8ef0ae6b9d7c1844b318d6883e7f2ef5e65394a932506980c73c",
+      "bytes": 6374
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/openai.models/+esm",
+      "upstreamSha256": "7117c860a5b304f05722f3bb206f86ed78b998b00ead97439afad42a9a79872a",
+      "file": "runtime/modules/5868184e2cf1f4a9dc08c2bb.js",
+      "sha256": "9e3d10483775825088836d6273012b485e69c80a4e9a745c93a1023e5bb04e27",
+      "bytes": 26376
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/opencode-go.models/+esm",
+      "upstreamSha256": "55323fbf151b32761240c49da98495d7ad985e94c64643a3af4b68b5b185123c",
+      "file": "runtime/modules/9759413b6094aac2a554404d.js",
+      "sha256": "ab6937e800b96925672516f242c714a8657cd6843c2b12ec763a78b22c12c3f2",
+      "bytes": 15933
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/opencode.models/+esm",
+      "upstreamSha256": "72dc640b35ee8fd2c5d06846b88699ce6d5771ee2affbe44b48153a25239c481",
+      "file": "runtime/modules/fb1915d6c0edff21e09dfa69.js",
+      "sha256": "cafd2f5d858b77243ca4223fe7d60836977bb68e890653b73f96c02337e7cbda",
+      "bytes": 45981
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/openrouter.models/+esm",
+      "upstreamSha256": "223c97013d04ea70acc84485f2cb720010a24ca0830d179868c9c34358013cdf",
+      "file": "runtime/modules/0b44c1175df75f7c0c3d12a5.js",
+      "sha256": "fd9991f6d72b43da5fbe62778c3b6bf1d0b2073599985c7a4c1ceb458fd6ec3f",
+      "bytes": 250741
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/qwen-token-plan-cn.models/+esm",
+      "upstreamSha256": "f80090b90e221925f5d62e9d692fc12ce96dcd7d2d047b0c41a043abf3e45259",
+      "file": "runtime/modules/5cfc4b6d58496f48af15cf0a.js",
+      "sha256": "65fd9a091e3528738ec33043cf9854576187805a10c782a0bf439381fdd9982a",
+      "bytes": 11497
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/qwen-token-plan-individual.models/+esm",
+      "upstreamSha256": "66d478326ccb0f4a257238ff972d18bf7f6a4561eadf46127cea10b2133356ae",
+      "file": "runtime/modules/0fff3c4c4f0cdecb9f6cd1e3.js",
+      "sha256": "01f13ba3f09406175a4f2e6ec77a126d5a7d108121a47722c9c25ebd5fe3a9b6",
+      "bytes": 5900
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/qwen-token-plan.models/+esm",
+      "upstreamSha256": "55aee2b804b34a8ba87546dd5059d9bed3e180734f8d0d8d524a16927c31b334",
+      "file": "runtime/modules/6a0d65f65a0f7056b93b1cb5.js",
+      "sha256": "e6d9720bc8dd0fbb268fce8721857fd9be36aa81202aa661e534662316377280",
+      "bytes": 11496
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/together.models/+esm",
+      "upstreamSha256": "7c0248e187cc760e4647afb8de4680746355db8ed7fc2106b6c660b6fd8057f6",
+      "file": "runtime/modules/976b952cf34b1695f1eb0b97.js",
+      "sha256": "af64f1bea7fe6822278ffe7e1e8ed596a9903c1e0849f3d9560839760f108a78",
+      "bytes": 10282
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/vercel-ai-gateway.models/+esm",
+      "upstreamSha256": "067a20a7bd726d903f7e055c0121ce64347316c61a04b1118b78a062b950b7a6",
+      "file": "runtime/modules/d51b48bbd614c7802c19aa5b.js",
+      "sha256": "82b099931246342528a75f532fc59015e4d0ea66fbaaa95d9da9cc52001afac9",
+      "bytes": 136871
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/xai.models/+esm",
+      "upstreamSha256": "b9248f14e82b1c7e20e0353c51d35987184a9bca8d7198a4695e1f23bd5ca198",
+      "file": "runtime/modules/ad2384a20b3d947103120064.js",
+      "sha256": "5b916d4ba9ace640f0e0297eabca273ba44f507ab96d9e5f01008fe54fa143fb",
+      "bytes": 2880
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/xiaomi-token-plan-ams.models/+esm",
+      "upstreamSha256": "3fd69011b45bc596abe41ff40e20c80c30c2266256ceff7a292d850d2c9da076",
+      "file": "runtime/modules/50ddb64d8350a2698d2db835.js",
+      "sha256": "c796280b920c4797a8b1f454e7f4088f14fc4f3e92b2b3ab4070198d3ef45eb3",
+      "bytes": 3191
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/xiaomi-token-plan-cn.models/+esm",
+      "upstreamSha256": "b9002bc5978250ac32260d99df56ad5c462a732bd71e0ba500ec750f9c06fdf2",
+      "file": "runtime/modules/afc1d59357b795d3fa58e25e.js",
+      "sha256": "96cea66fb44ea03eaad97d155ab7bb67afdd9163dea1fa13c83774b356535f0f",
+      "bytes": 3176
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/xiaomi-token-plan-sgp.models/+esm",
+      "upstreamSha256": "aa0b831a7f9081708320a1f55ace55789ba9dbd080e3555bbb9e1e0f29528320",
+      "file": "runtime/modules/eb073dd4d4a87cb00903cc8d.js",
+      "sha256": "2216a7e5dd1be02d22d942b9239b4b1f9ee5991d6ab199a1897c76d88be204a5",
+      "bytes": 3191
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/xiaomi.models/+esm",
+      "upstreamSha256": "f8d726f1a8461b3925cbf2c0c00656468daba79af5d454f3173edce0a2c124a0",
+      "file": "runtime/modules/686376d6168d9fd9f2847d63.js",
+      "sha256": "4fe639f9b8f3af347abf1ac9e1fd3adb9bb46ea9c629e702c88e47af02ff5de2",
+      "bytes": 4200
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/zai-coding-cn.models/+esm",
+      "upstreamSha256": "8f965c19be7ca75498a2fd0ba803620f73ad9b2afc44c8679a3eb7927f9ad74e",
+      "file": "runtime/modules/9c3223575ddc5a527735aec6.js",
+      "sha256": "9c54619a194d84e139a00bd17995ea1e1e19e0a5186ae68aaaf02247435bb1db",
+      "bytes": 3047
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@1.3.0/providers/zai.models/+esm",
+      "upstreamSha256": "0bd912db66ec5ed81c956f37b5bdb8570d4dc6ef648f709d02cd27d97d999534",
+      "file": "runtime/modules/142b6b9efdc61cba570879c4.js",
+      "sha256": "705e7450a333a3d9031d1db2fe481c800975060de627d145dc931aa805396bdc",
+      "bytes": 4317
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@google/genai@2.21.0/+esm",
+      "upstreamSha256": "4e391d23f2cacac47835ccc47758cb0ef63c9da7904d51ff12a6d21e626e54ef",
+      "file": "runtime/modules/8c6d4f2ea1106fc99c05177b.js",
+      "sha256": "59376347ebd1337f7ec13cb3bad01c625a53e66864405955265039e7c28c38b8",
+      "bytes": 372843
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@intlify/core-base/+esm",
+      "upstreamSha256": "7bb0bd6b5395ded0db36ef2a470122c475ccebd81a8288fa2ee2bc05546761f8",
+      "file": "runtime/modules/857ab6a12acd12334bd7e6d2.js",
+      "sha256": "253609f3a0a2f582f8d38f1f22b48586f6e5007410be96768f748da09a37f763",
+      "bytes": 19352
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@intlify/message-compiler@11.4.16/+esm",
+      "upstreamSha256": "65f3f96c9929c2d6bfca74e3ff55fc25c59c4d4280ec5c414465c8ceec6c1599",
+      "file": "runtime/modules/c5307ce150b4871e9ec92d08.js",
+      "sha256": "c55d2f906ec2f6f45bf5398edbe2a66eb7b496ae0c2acbbcdd8b4fa6e897e58c",
+      "bytes": 18538
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@intlify/shared@11.4.16/+esm",
+      "upstreamSha256": "e6b903cad847e80fdfd1945ef1f28de6361103313b90b7c9fdb32ddc20744ee9",
+      "file": "runtime/modules/9fd068cee5e052b631686b8c.js",
+      "sha256": "8df197ceb6728e2e588dc24731570f10494bbf76e6a0516f0f73bb6d5c7b283a",
+      "bytes": 5429
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@intlify/shared/+esm",
+      "upstreamSha256": "e6b903cad847e80fdfd1945ef1f28de6361103313b90b7c9fdb32ddc20744ee9",
+      "file": "runtime/modules/73fefb391a8423a1bc96cff7.js",
+      "sha256": "8df197ceb6728e2e588dc24731570f10494bbf76e6a0516f0f73bb6d5c7b283a",
+      "bytes": 5429
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/@stablelib/base64@1.0.1/+esm",
+      "upstreamSha256": "f73196ffc4a79754831b6f54d27f902257b2ac8eb280786bae6d8be6057e20dc",
+      "file": "runtime/modules/d0bc12bf01afc319160a265a.js",
+      "sha256": "fc4068e73342a4881faec450f005b284ad5f57e83e075e47b254b3658ac17a61",
+      "bytes": 4102
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/compare-versions/+esm",
+      "upstreamSha256": "72aca95e36fb70155e5f43546fe668c010fe82fd13e5a45d39427b26fed0a6f6",
+      "file": "runtime/modules/83b186a3f9078165d3386e7b.js",
+      "sha256": "9c562db00d33108ea99e755e29bc20d8e9f72bb18f6b0b5938f5eeedb52e260f",
+      "bytes": 2377
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/complex.js@2.4.3/+esm",
+      "upstreamSha256": "b8ff2754901e80d9fed82fdbb2e880da45c8df96152f2ac1c976190f31a7b865",
+      "file": "runtime/modules/35f968ba57185a29b2d11c00.js",
+      "sha256": "f4904f239d9220ed850ba8bd9b5e886d8774fdbefeadd1cb9b949a96c6dff78e",
+      "bytes": 9791
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/decimal.js@10.6.0/+esm",
+      "upstreamSha256": "a969cf2e76c317b9daf06d5277bdbb0bda6a3c81003665ce50ae2a93dfbbdfaa",
+      "file": "runtime/modules/4d80640c12efef3a1e325ba7.js",
+      "sha256": "6b51c1c05bb3361472084b0ca4f096611a010a76ae2c78be6efbac4e848f1d55",
+      "bytes": 32660
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/escape-latex@1.2.0/+esm",
+      "upstreamSha256": "2f53a679867f4ab8eae49b93671bd7ef11e39027808a8ad4b2fea783d3064eda",
+      "file": "runtime/modules/11b53fec3cefbb306640fb18.js",
+      "sha256": "8b951af89eddcac0391bce9571df46b528f904ad1f0abe1768ebabe6b2303757",
+      "bytes": 1205
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/fast-sha256@1.3.0/+esm",
+      "upstreamSha256": "9433f59580a920b8b3ebd603b4f2c2b39fe132b0f9dbab89367c85c5f65db376",
+      "file": "runtime/modules/55bcf9e9c91f58cac876f4a1.js",
+      "sha256": "dd55ad4c2efb58bbe8d7c434bde99ea1e299e0a27ca7170d0d87dd9684ff4419",
+      "bytes": 6605
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/fraction.js@5.3.4/+esm",
+      "upstreamSha256": "8d8064193de7ee5c75b91a57f7afdecb3f14c2fd4d06f5381e865ef627dda9d8",
+      "file": "runtime/modules/2c735a2ad99ffcb8ad4a8fcd.js",
+      "sha256": "0f84383e891a4f026afaa4d949a86220aaf7bf56575848f9446e13d69383bff6",
+      "bytes": 7092
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/javascript-natural-sort@0.7.1/+esm",
+      "upstreamSha256": "8c35c7db497edbd016a087f02e65118f4c07e75ab1785561cf78de6446f6a3f9",
+      "file": "runtime/modules/80e5a7b4c056181e21de4a65.js",
+      "sha256": "d66f0f83cdcaec87e28a4410acc090a4b0804072f75c1e4002d55a5511e8a439",
+      "bytes": 1301
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/json5/+esm",
+      "upstreamSha256": "39805a3d9701b8ed20e892ccf86223f928382aa17edfc2361e6c5c76a473d3b2",
+      "file": "runtime/modules/4067dc802db61d13b66586f1.js",
+      "sha256": "1f146fe23a4db0e8d6be2638d67b1d78492028e7c8c487504c01e0849fcfaa1e",
+      "bytes": 27327
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/jsonrepair/+esm",
+      "upstreamSha256": "d74e6d2d78d2b12a8b32482657f5efa7691d09534551eb700a32ee741ffba362",
+      "file": "runtime/modules/3c7c7792367063729f206e08.js",
+      "sha256": "c3d7c68491b85903a2a5fbfc846a7cff46a5a9435bf43a3e164e743517f8d269",
+      "bytes": 8231
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/klona/+esm",
+      "upstreamSha256": "e6bb95d703905b5d1eed18561ba26568159f383f4b1f7a351de864c26ce8366b",
+      "file": "runtime/modules/bbebd2a5b26fbc18b65c6a78.js",
+      "sha256": "56d1d835d648f09fcbb1bbb9b4c9e363cacf9cd6e70d1b578da6c29ca6cc7582",
+      "bytes": 1153
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/mathjs/+esm",
+      "upstreamSha256": "e4f96c41f285c679208828138f3d19a5a0bc364dac729078516029aa998c7dd7",
+      "file": "runtime/modules/736ffcf8174366651bec383a.js",
+      "sha256": "76b6ea3e69d00b803078eaf413041a1b272d90e1d3e50587e363b7d66a0e9a33",
+      "bytes": 666365
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/openai@7.19.0/+esm",
+      "upstreamSha256": "00d2e3d3d685c8a9526d9f7a1742870424fb25d6222c3a759d3eabf8f7224f38",
+      "file": "runtime/modules/74a00456650104da2f25a47b.js",
+      "sha256": "c85f82de45216803583c93270b7dd122af72364c2915a4d352f09695bdda62bb",
+      "bytes": 305998
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/p-retry@4.6.2/+esm",
+      "upstreamSha256": "9164586d27d11bcd2328ad7303982fa9d621746599dcb8955c79cb32a9fea403",
+      "file": "runtime/modules/9a1acf5b11af841d6c49d9b3.js",
+      "sha256": "1228693de774199996479df789c51c50539bdd9c0269128542ad9e8c6dfe7170",
+      "bytes": 1515
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/partial-json@0.1.7/+esm",
+      "upstreamSha256": "f7d1dcbdc45780ff1c525bded427414e49604498ee9c509139e1fca873413aba",
+      "file": "runtime/modules/6a73b4143fd85fd3ba0a044e.js",
+      "sha256": "8441c33a0a8c4d708c6cdfdb3c8cbceb1002c3a051f3bd22d8955dfd3c80d9fd",
+      "bytes": 4597
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/retry@0.13.1/+esm",
+      "upstreamSha256": "c08b7e43af5736b2be45918f688966fa38362e21d04f2f59276cd5f9359d4542",
+      "file": "runtime/modules/9303ab6c0cc5e366602ce92e.js",
+      "sha256": "16122fbe1b1f0911ba02b8d15bedbde31ab9cdb297483d4a2e2c78e89854b24f",
+      "bytes": 3971
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/seedrandom@3.0.5/+esm",
+      "upstreamSha256": "bff06d8dbe428efed7c3f061399890de74b6afddab70344e4b68a95055744d48",
+      "file": "runtime/modules/aab5c8a1fb17d33a33e6d55d.js",
+      "sha256": "31bccf44c7f82c2034e2144f3825c1b3837715fad6f4857b7be8ca4c11d34bda",
+      "bytes": 8174
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/standardwebhooks@1.1.1/+esm",
+      "upstreamSha256": "8df7d63173e554a800b77fc99b9f6a11e1a82a7b35c58382367adeda1d084c25",
+      "file": "runtime/modules/f742742453d9080441448b65.js",
+      "sha256": "676346621e79685cd15b2a067668f568c43267a5f5faccc17f4c13f62586e072",
+      "bytes": 3072
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/tiny-emitter@2.1.0/+esm",
+      "upstreamSha256": "0a23e30943430ad037b6b144f01d6fcb6fb38c8eff8610dcfa1354e274f0c9ae",
+      "file": "runtime/modules/e38d2d8ba49473ce0bb744e0.js",
+      "sha256": "ace256cfcb60e0b1ea695431675ccce173bd11ccb3bdd0ae033045f248e5d8f0",
+      "bytes": 1022
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/typebox@1.3.27/+esm",
+      "upstreamSha256": "1fc19e0e02de42ee97515933c0250e94d6924f402bcaf6ae409e92fa7ca65e9e",
+      "file": "runtime/modules/3dc4f4647233c00eef3ccc08.js",
+      "sha256": "27ad44df0aba54d52045099bc51be22f9ca8b0c374b65d768aaf7167eca9111e",
+      "bytes": 76935
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/typebox@1.3.27/compile/+esm",
+      "upstreamSha256": "f295d42337008d117104084af9d7c2093757e0ab9afa31e150521d1b1851df2a",
+      "file": "runtime/modules/e3583786200c1fddc1c6fbca.js",
+      "sha256": "f555e1be4806f07ccd2282b6b4ae61bca48cf184bbb125897118fa70364091ea",
+      "bytes": 126840
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/typebox@1.3.27/value/+esm",
+      "upstreamSha256": "5cb4c0120e8cf72c98977c6e73395392816304eb97a35adac27c3c953eedbd6f",
+      "file": "runtime/modules/04fecfc3acba7eec39dc89ce.js",
+      "sha256": "962c9110a4997862aa9cb743b2057e875bc7f48932b3232a88d1c3753074c089",
+      "bytes": 115302
+    },
+    {
+      "upstream": "https://testingcf.jsdelivr.net/npm/typed-function@4.2.2/+esm",
+      "upstreamSha256": "905f3c6ff45d4afe2ac5fa070f154de730f43bace994219624e167eab4030498",
+      "file": "runtime/modules/b922ce65cd736f0346eb3208.js",
+      "sha256": "b7056e04120fd5031434400ccb9d4c861aeb95ac0f5f50b83f3aacf22ee779a1",
+      "bytes": 17682
+    }
+  ],
+  "entry": {
+    "file": "runtime/bundle.js",
+    "sha256": "0f51422f23f42e66b1cfab73080d3213472b78bf7fdcf58cfa15d9b5d8aa2722",
+    "bytes": 589709
+  }
+}

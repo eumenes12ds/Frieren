@@ -76,15 +76,14 @@ import HelpIcon from '@/panel/component/HelpIcon.vue';
 import OverrideBadge from '@/panel/component/OverrideBadge.vue';
 import { OPEN_SOURCE_LICENSES } from '@/panel/open_source_licenses';
 import Section from '@/panel/component/Section.vue';
-import sandas_message_help_en from '@/panel/compatibility_sandas_message.en.md';
-import sandas_message_help_zh_cn from '@/panel/compatibility_sandas_message.zh-CN.md';
+import sandas_message_help_ja from '@/panel/compatibility_sandas_message.ja.md';
 import { useDataStore } from '@/store';
 import { computed } from 'vue';
 
 const store = useDataStore();
 const { locale, t } = useMvuI18n();
 const sandas_message_help = computed(() =>
-    locale.value === 'zh-CN' ? sandas_message_help_zh_cn : sandas_message_help_en
+    sandas_message_help_ja
 );
 // 许可证表来自统一清单；说明随界面语言更新，包名和许可证标识保持可核查的原值。
 const license_help = computed(

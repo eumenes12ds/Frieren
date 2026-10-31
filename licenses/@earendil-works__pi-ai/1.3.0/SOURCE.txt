@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/earendil-works/pi/44d9fb5f6e553c425def5dcd7a61e904dd6d7794/LICENSE
+Registry declares MIT
